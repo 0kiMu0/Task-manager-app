@@ -1,8 +1,6 @@
 'use client';
 
-import { Poltawski_Nowy } from "next/font/google";
 import React, { useState } from "react";
-import { ReactFormState } from "react-dom/client";
 
 interface AuthFormProps{
     type:'login'|'register';
